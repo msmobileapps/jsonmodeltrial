@@ -1,0 +1,18 @@
+PODS:
+  - JSONModel (1.2.0)
+  - JSONModelTrial (0.1.0):
+    - JSONModel
+
+DEPENDENCIES:
+  - JSONModel
+  - JSONModelTrial (from `../`)
+
+EXTERNAL SOURCES:
+  JSONModelTrial:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  JSONModelTrial: d87237a33ff345be84ed20490bd47c7e876a58d0
+
+COCOAPODS: 0.39.0

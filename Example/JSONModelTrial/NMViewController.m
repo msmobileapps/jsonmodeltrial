@@ -7,6 +7,7 @@
 //
 
 #import "NMViewController.h"
+#import <JSONModelTrial/JSONModelTrial.h>
 
 @interface NMViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    ProductModel* pm = [[ProductModel alloc] initWithString:@"" error:nil];
+    pm.name = @"Changed Name";
+
 }
 
 - (void)didReceiveMemoryWarning
