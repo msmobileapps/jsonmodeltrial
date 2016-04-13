@@ -1,0 +1,6 @@
+framework module JSONModelTrial {
+  umbrella header "JSONModelTrial.h"
+
+  export *
+  module * { export * }
+}
